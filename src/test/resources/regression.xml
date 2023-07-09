@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests for dz-14">
+    <test name="Test for Elements">
+        <classes>
+            <class name="test.elements.testElements"/>
+        </classes>
+
+    </test>
+    <test name="Tests for Web Table">
+        <classes>
+            <class name="test.webtables.testWebtablesAddUser"/>
+            <class name="test.webtables.testWebtablesSearchUser"/>
+            <class name="test.webtables.testWebtablesEditUser"/>
+            <class name="test.webtables.testWebtablesDeleteUser"/>
+        </classes>
+
+    </test>
+</suite>
